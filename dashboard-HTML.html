@@ -5,6 +5,7 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <!--<link rel="stylesheet" href="packery-docs.css" />-->
     <link rel="stylesheet" href="dashboard-CSS.css" />
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
     <title>Dashboard</title>
 </head>
@@ -12,18 +13,91 @@
 <body>
     <h1>Dashboard</h1>
     <div class="grid" data-packery='{itemSelector": ".grid-item"}'>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
+        <!--new-->
+        <div class="cards">
+            <div class="grid-item">
+                <!--New-->
+                <div class="mdc-card element-card earth">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Earth</h1>
+                        <h2 class="mdc-card__subtitle">A solid decision.</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="mdc-card element-card wind">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Wind</h1>
+                        <h2 class="mdc-card__subtitle">Stormy weather ahead.</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="mdc-card element-card fire">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Fire</h1>
+                        <h2 class="mdc-card__subtitle">Hot-headed much?</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="mdc-card element-card water">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Water</h1>
+                        <h2 class="mdc-card__subtitle">Go with the flow.</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <!--Nothing to see here-->
+            <div class="grid-item">
+                <div class="mdc-card element-card tile1">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Tile1</h1>
+                        <h2 class="mdc-card__subtitle">Ki</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="mdc-card element-card tile2">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Tile 2</h1>
+                        <h2 class="mdc-card__subtitle">ru</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="mdc-card element-card tile3">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Tile 3</h1>
+                        <h2 class="mdc-card__subtitle">ga</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="mdc-card element-card tile4">
+                    <section class="mdc-card__media">
+                        <h1 class="mdc-card__title mdc-card__title--large">Tile 4</h1>
+                        <h2 class="mdc-card__subtitle">me</h2> </section>
+                    <section class="mdc-card__actions">
+                        <button class="mdc-button mdc-button--primary mdc-button--compact mdc-card__action">Pick this element</button>
+                    </section>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://unpkg.com/packery@2/dist/packery.pkgd.js"></script>
     <script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.js"></script>
