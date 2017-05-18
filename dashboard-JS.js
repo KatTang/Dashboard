@@ -2,6 +2,8 @@
 var pckry = new Packery('.grid', {
     itemSelector: '.grid-item'
     , gutter: 5
+    , rowHeight: 300
+    , columnWidth: 500
 });
 pckry.getItemElements().forEach(function (itemElem) {
     var draggie = new Draggabilly(itemElem);
