@@ -7,6 +7,20 @@ body {
 }
 
 
+/* ---- cards ---- */
+
+.my-card-container {
+    height: 300px;
+    width: 500px;
+}
+
+.mdc-card {
+    height: 300px;
+    width: 500px;
+    background: #C09;
+}
+
+
 /* ---- grid ---- */
 
 .grid {
@@ -28,10 +42,9 @@ body {
 
 .grid-item {
     float: left;
-    /*width: 500px;
     height: 300px;
-    background: #C09;
-    border: 2px solid hsla(0, 0%, 0%, 0.5);*/
+    width: 500px;
+    /*    border: 2px solid hsla(0, 0%, 0%, 0.5);*/
 }
 
 .grid-item:hover {
