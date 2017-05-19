@@ -1,7 +1,9 @@
 // external js: packery.pkgd.js, draggabilly.pkgd.js
 var pckry = new Packery('.grid', {
     itemSelector: '.grid-item'
-    , gutter: 5
+    , rowHeight: 295
+    , columnWidth: 492
+    , gutter: 10
 });
 pckry.getItemElements().forEach(function (itemElem) {
     var draggie = new Draggabilly(itemElem);
